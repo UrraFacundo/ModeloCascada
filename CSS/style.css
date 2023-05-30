@@ -1,0 +1,78 @@
+body {
+font-family: 'Arial', sans-serif;
+background-image: url(../IMAGENES/pexels-angelo-herreras-16881617.jpg);
+background-repeat: no-repeat;
+background-size: 110%;
+background-position-x: -130px;
+background-attachment: fixed;  padding: 20px;
+}
+
+.titulo {
+text-align: center;
+margin-bottom: 20px;
+margin-left: 365px;
+}
+
+.contenedor {
+background-color: #333;
+color: #fff;
+padding: 20px;
+max-width: 300px;
+margin-left: auto;
+margin-right: 300px;
+}
+
+h2 {
+font-size: 24px;
+margin-top: 0;
+}
+
+/* @keyframes rainbow {
+0% { color: #ff00ff; }
+14% { color: #ff0000; }
+28% { color: #ff8000; }
+43% { color: #ffff00; }
+57% { color: #00ff00; }
+71% { color: #0000ff; }
+85% { color: #8000ff; }
+100% { color: #ff00ff; }
+} */
+
+h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input[type="text"] {
+width: 90%;
+padding: 10px;
+margin-bottom: 20px;
+border: none;
+border-radius: 4px;
+background-color: #fff;
+}
+
+button {
+background-color: #00aaff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #0088cc;
+}
+
+#resultado {
+font-weight: bold;
+margin-top: 10px;
+}

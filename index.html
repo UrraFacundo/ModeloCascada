@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DES/ENCRIPTADOR</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h2>Encriptador y Desencriptador</h2>
+    </div>
+
+    <div class="contenedor">
+        <h3>Encriptar</h3>
+        <label for="numero">Número de 4 dígitos:</label>
+        <input type="text" id="numero" maxlength="4" pattern="\d*" oninput="this.value = this.value.replace(/\D/g,'')">
+        <button onclick="encriptar()">Encriptar</button>
+    
+        <h3>Desencriptar</h3>
+        <label for="NumEncript">Número encriptado:</label>
+        <input type="text" id="NumEncript" maxlength="4" pattern="\d*" oninput="this.value = this.value.replace(/\D/g,'')">
+        <button onclick="desencriptar()">Desencriptar</button>
+    
+        <h3>Resultado</h3>
+        <p id="resultado"></p>
+    </div>
+    </body>
+<script src="JS/script.js"></script>
+</html>
